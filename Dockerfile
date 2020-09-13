@@ -1,3 +1,3 @@
 FROM debian
-COPY bin/quarky /bin/quarky
-ENTRYPOINT ["/bin/quarky"]
+COPY bin/hello-world /bin/hello-world
+ENTRYPOINT ["/bin/hello-world"]

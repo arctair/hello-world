@@ -3,5 +3,5 @@
     "*"
   ],
   "ext": "go",
-  "exec": "go test arctair.com/quarky/v1 && CLUSTER_URL=`scripts/getLoadBalancerUrl` go test -tags acceptance || exit 1"
+  "exec": "go test arctair.com/hello-world/v1 && go test -tags acceptance || exit 1"
 }

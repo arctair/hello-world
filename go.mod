@@ -1,4 +1,4 @@
-module arctair.com/quarky
+module arctair.com/hello-world
 
 go 1.14
 
